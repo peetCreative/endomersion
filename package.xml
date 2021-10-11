@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>endomersion</name>
+    <version>0.0.1</version>
+    <description>
+        The super ros package to tie together all ROS packages of the EndoMersion
+    </description>
+    <maintainer email="peter.klausing@nct-dresden.de">Peter Klausing</maintainer>
+    <license>GPLv3</license>
+
+    <url type="repository">https://github.com/peetCreative/endomersion</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>pivot_control_messages_ros</depend>
+    <depend>esvr2_ros</depend>
+    <depend>franka_pivot_control_ros</depend>
+    <depend>mediassist3_simulation</depend>
+    <depend>roscpp</depend>
+</package>
